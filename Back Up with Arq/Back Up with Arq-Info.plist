@@ -23,7 +23,7 @@
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2012 Jonathon Mah. All rights reserved.</string>
+	<string>Created by Jonathon Mah; placed in the public domain.</string>
 	<key>NSPrincipalClass</key>
 	<string>JSMBackUpWithArqPlugin</string>
 	<key>SKPluginVersion</key>

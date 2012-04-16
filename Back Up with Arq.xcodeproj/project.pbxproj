@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		283DDA0A153BF0740035322D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 283DDA09153BF0740035322D /* Cocoa.framework */; };
+		283DDA27153BF13D0035322D /* JSMBackUpWithArqPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 283DDA26153BF13D0035322D /* JSMBackUpWithArqPlugin.m */; };
+		283DDA2A153BF1E20035322D /* JSMBackUpWithArqAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 283DDA29153BF1E20035322D /* JSMBackUpWithArqAction.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		283DDA06153BF0740035322D /* Back Up with Arq.skplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Back Up with Arq.skplugin"; sourceTree = BUILT_PRODUCTS_DIR; };
+		283DDA09153BF0740035322D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		283DDA0C153BF0740035322D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		283DDA0D153BF0740035322D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		283DDA0E153BF0740035322D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		283DDA11153BF0740035322D /* Back Up with Arq-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Back Up with Arq-Info.plist"; sourceTree = "<group>"; };
+		283DDA1F153BF1120035322D /* SKAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKAction.h; sourceTree = "<group>"; };
+		283DDA20153BF1120035322D /* SKActionContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKActionContext.h; sourceTree = "<group>"; };
+		283DDA21153BF1120035322D /* SKActionMaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKActionMaster.h; sourceTree = "<group>"; };
+		283DDA22153BF1120035322D /* SKOptionSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKOptionSheetController.h; sourceTree = "<group>"; };
+		283DDA23153BF1120035322D /* SKPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPlugin.h; sourceTree = "<group>"; };
+		283DDA24153BF1120035322D /* SKPluginMaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPluginMaster.h; sourceTree = "<group>"; };
+		283DDA25153BF13D0035322D /* JSMBackUpWithArqPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSMBackUpWithArqPlugin.h; sourceTree = "<group>"; };
+		283DDA26153BF13D0035322D /* JSMBackUpWithArqPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSMBackUpWithArqPlugin.m; sourceTree = "<group>"; };
+		283DDA28153BF1E20035322D /* JSMBackUpWithArqAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSMBackUpWithArqAction.h; sourceTree = "<group>"; };
+		283DDA29153BF1E20035322D /* JSMBackUpWithArqAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSMBackUpWithArqAction.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		283DDA03153BF0740035322D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				283DDA0A153BF0740035322D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		283DD9FB153BF0740035322D = {
+			isa = PBXGroup;
+			children = (
+				283DDA0F153BF0740035322D /* Back Up with Arq */,
+				283DDA1E153BF1120035322D /* SKPlugin */,
+				283DDA08153BF0740035322D /* Frameworks */,
+				283DDA07153BF0740035322D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		283DDA07153BF0740035322D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				283DDA06153BF0740035322D /* Back Up with Arq.skplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		283DDA08153BF0740035322D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				283DDA09153BF0740035322D /* Cocoa.framework */,
+				283DDA0B153BF0740035322D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		283DDA0B153BF0740035322D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				283DDA0C153BF0740035322D /* AppKit.framework */,
+				283DDA0D153BF0740035322D /* CoreData.framework */,
+				283DDA0E153BF0740035322D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		283DDA0F153BF0740035322D /* Back Up with Arq */ = {
+			isa = PBXGroup;
+			children = (
+				283DDA25153BF13D0035322D /* JSMBackUpWithArqPlugin.h */,
+				283DDA26153BF13D0035322D /* JSMBackUpWithArqPlugin.m */,
+				283DDA28153BF1E20035322D /* JSMBackUpWithArqAction.h */,
+				283DDA29153BF1E20035322D /* JSMBackUpWithArqAction.m */,
+				283DDA10153BF0740035322D /* Supporting Files */,
+			);
+			path = "Back Up with Arq";
+			sourceTree = "<group>";
+		};
+		283DDA10153BF0740035322D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				283DDA11153BF0740035322D /* Back Up with Arq-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		283DDA1E153BF1120035322D /* SKPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				283DDA1F153BF1120035322D /* SKAction.h */,
+				283DDA20153BF1120035322D /* SKActionContext.h */,
+				283DDA21153BF1120035322D /* SKActionMaster.h */,
+				283DDA22153BF1120035322D /* SKOptionSheetController.h */,
+				283DDA23153BF1120035322D /* SKPlugin.h */,
+				283DDA24153BF1120035322D /* SKPluginMaster.h */,
+			);
+			path = SKPlugin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		283DDA05153BF0740035322D /* Back Up with Arq */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 283DDA18153BF0740035322D /* Build configuration list for PBXNativeTarget "Back Up with Arq" */;
+			buildPhases = (
+				283DDA02153BF0740035322D /* Sources */,
+				283DDA03153BF0740035322D /* Frameworks */,
+				283DDA04153BF0740035322D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Back Up with Arq";
+			productName = "Back Up with Arq";
+			productReference = 283DDA06153BF0740035322D /* Back Up with Arq.skplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		283DD9FD153BF0740035322D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Jonathon Mah";
+			};
+			buildConfigurationList = 283DDA00153BF0740035322D /* Build configuration list for PBXProject "Back Up with Arq" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 283DD9FB153BF0740035322D;
+			productRefGroup = 283DDA07153BF0740035322D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				283DDA05153BF0740035322D /* Back Up with Arq */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		283DDA04153BF0740035322D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		283DDA02153BF0740035322D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				283DDA27153BF13D0035322D /* JSMBackUpWithArqPlugin.m in Sources */,
+				283DDA2A153BF1E20035322D /* JSMBackUpWithArqAction.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		283DDA16153BF0740035322D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		283DDA17153BF0740035322D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		283DDA19153BF0740035322D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_GC = supported;
+				INFOPLIST_FILE = "Back Up with Arq/Back Up with Arq-Info.plist";
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = skplugin;
+			};
+			name = Debug;
+		};
+		283DDA1A153BF0740035322D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_GC = supported;
+				INFOPLIST_FILE = "Back Up with Arq/Back Up with Arq-Info.plist";
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = skplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		283DDA00153BF0740035322D /* Build configuration list for PBXProject "Back Up with Arq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				283DDA16153BF0740035322D /* Debug */,
+				283DDA17153BF0740035322D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		283DDA18153BF0740035322D /* Build configuration list for PBXNativeTarget "Back Up with Arq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				283DDA19153BF0740035322D /* Debug */,
+				283DDA1A153BF0740035322D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 283DD9FD153BF0740035322D /* Project object */;
+}
